@@ -1,0 +1,1 @@
+cmd_/home/zhpp/works/chrdevbase/chrdevbase.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/zhpp/works/chrdevbase/chrdevbase.ko /home/zhpp/works/chrdevbase/chrdevbase.o /home/zhpp/works/chrdevbase/chrdevbase.mod.o;  true
